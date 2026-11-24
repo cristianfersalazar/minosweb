@@ -1,0 +1,96 @@
+{
+  "php": "8.3.36",
+  "wordpress": "7.1.5",
+  "woocommerce": "11.3.0",
+  "checks": [
+    {
+      "check": "PHP válido y complemento activado",
+      "passed": true
+    },
+    {
+      "check": "Catálogo base preparado",
+      "passed": true
+    },
+    {
+      "check": "Tema compatible reconocido",
+      "passed": true
+    },
+    {
+      "check": "Poppins se aplica a la página pública",
+      "passed": true
+    },
+    {
+      "check": "Movimiento activo por defecto",
+      "passed": true
+    },
+    {
+      "check": "CSS encolado",
+      "passed": true
+    },
+    {
+      "check": "CSS se carga después del tema",
+      "passed": true
+    },
+    {
+      "check": "JavaScript encolado",
+      "passed": true
+    },
+    {
+      "check": "Fuente local precargada",
+      "passed": true
+    },
+    {
+      "check": "Color inválido usa valor seguro",
+      "passed": true
+    },
+    {
+      "check": "Desactivar movimiento retira clase y JavaScript",
+      "passed": true
+    },
+    {
+      "check": "Personalizador incluye dos colores y selector de animación",
+      "passed": true
+    },
+    {
+      "check": "Ajustes del catálogo original intactos",
+      "passed": true
+    },
+    {
+      "check": "Modo catálogo conservado",
+      "passed": true
+    }
+  ],
+  "visual_checks": {
+    "desktop": {
+      "width": 1348,
+      "scroll_width": 1348,
+      "body_font": "Poppins, Arial, sans-serif"
+    },
+    "mobile_390": {
+      "content_width": 375,
+      "scroll_width": 375,
+      "nav_columns": [
+        73,
+        73,
+        73,
+        73,
+        73
+      ]
+    },
+    "mobile_320": {
+      "content_width": 305,
+      "scroll_width": 305,
+      "nav_columns": [
+        59,
+        59,
+        59,
+        59,
+        59
+      ]
+    },
+    "lover_content": "Legible; niveles mantienen contraste y preguntas se expanden",
+    "animation_end_opacity": 1
+  },
+  "spanish_font_glyphs_verified": true,
+  "scope": "Prueba aislada con WordPress Playground; no instalado en el equipo del usuario."
+}

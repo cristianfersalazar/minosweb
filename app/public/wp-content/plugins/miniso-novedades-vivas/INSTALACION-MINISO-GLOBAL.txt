@@ -1,0 +1,14 @@
+MINISO Guatemala: plantillas personalizables
+
+Esta actualización NO reemplaza ni borra el contenido de WordPress.
+
+Requisitos: WordPress 6.6+, PHP 8.0+, editor de bloques y tema MINISO Catálogo.
+Respalda la base de datos, wp-content/uploads y los archivos del tema/plugin antes de instalar.
+
+Después de actualizar el tema y Novedades Vivas, abre una página de WordPress.
+Selecciona + → MINISO · Sección personalizable. Elige un tipo, fondo y contenido.
+Se pueden repetir secciones y elementos; los campos vacíos no generan contenido.
+Para Inicio y Novedades, el bloque admite colocación antes/después del contenido automático.
+
+La opción vieja de catálogo Canadá se oculta del menú si su texto corresponde,
+pero este código no desinstala complementos externos ni sus pantallas internas.

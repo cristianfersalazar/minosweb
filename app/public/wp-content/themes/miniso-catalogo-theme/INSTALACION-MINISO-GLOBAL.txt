@@ -1,0 +1,2 @@
+MINISO Catálogo 2.3
+Usar GUIA-EDICION-GLOBAL.txt para activar la portada flexible y administrar el contenido desde bloques.

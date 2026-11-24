@@ -1,0 +1,26 @@
+{
+    "open sans": {
+        "normal": "C:\/Users\/crist\/Local Sites\/minisopropotype\/app\/public\/wp-content\/uploads\/wpo_wcpdf_f1556bbebd4e84e31e86d729f318fd51\/fonts\/OpenSans-Normal",
+        "bold": "C:\/Users\/crist\/Local Sites\/minisopropotype\/app\/public\/wp-content\/uploads\/wpo_wcpdf_f1556bbebd4e84e31e86d729f318fd51\/fonts\/OpenSans-Bold",
+        "italic": "C:\/Users\/crist\/Local Sites\/minisopropotype\/app\/public\/wp-content\/uploads\/wpo_wcpdf_f1556bbebd4e84e31e86d729f318fd51\/fonts\/OpenSans-Italic",
+        "bold_italic": "C:\/Users\/crist\/Local Sites\/minisopropotype\/app\/public\/wp-content\/uploads\/wpo_wcpdf_f1556bbebd4e84e31e86d729f318fd51\/fonts\/OpenSans-BoldItalic"
+    },
+    "segoe": {
+        "normal": "C:\/Users\/crist\/Local Sites\/minisopropotype\/app\/public\/wp-content\/uploads\/wpo_wcpdf_f1556bbebd4e84e31e86d729f318fd51\/fonts\/Segoe-Normal",
+        "bold": "C:\/Users\/crist\/Local Sites\/minisopropotype\/app\/public\/wp-content\/uploads\/wpo_wcpdf_f1556bbebd4e84e31e86d729f318fd51\/fonts\/Segoe-Bold",
+        "italic": "C:\/Users\/crist\/Local Sites\/minisopropotype\/app\/public\/wp-content\/uploads\/wpo_wcpdf_f1556bbebd4e84e31e86d729f318fd51\/fonts\/Segoe-Italic",
+        "bold_italic": "C:\/Users\/crist\/Local Sites\/minisopropotype\/app\/public\/wp-content\/uploads\/wpo_wcpdf_f1556bbebd4e84e31e86d729f318fd51\/fonts\/Segoe-BoldItalic"
+    },
+    "roboto slab": {
+        "normal": "C:\/Users\/crist\/Local Sites\/minisopropotype\/app\/public\/wp-content\/uploads\/wpo_wcpdf_f1556bbebd4e84e31e86d729f318fd51\/fonts\/RobotoSlab-Normal",
+        "bold": "C:\/Users\/crist\/Local Sites\/minisopropotype\/app\/public\/wp-content\/uploads\/wpo_wcpdf_f1556bbebd4e84e31e86d729f318fd51\/fonts\/RobotoSlab-Bold",
+        "italic": "C:\/Users\/crist\/Local Sites\/minisopropotype\/app\/public\/wp-content\/uploads\/wpo_wcpdf_f1556bbebd4e84e31e86d729f318fd51\/fonts\/RobotoSlab-Italic",
+        "bold_italic": "C:\/Users\/crist\/Local Sites\/minisopropotype\/app\/public\/wp-content\/uploads\/wpo_wcpdf_f1556bbebd4e84e31e86d729f318fd51\/fonts\/RobotoSlab-BoldItalic"
+    },
+    "currencies": {
+        "normal": "C:\/Users\/crist\/Local Sites\/minisopropotype\/app\/public\/wp-content\/uploads\/wpo_wcpdf_f1556bbebd4e84e31e86d729f318fd51\/fonts\/currencies",
+        "bold": "C:\/Users\/crist\/Local Sites\/minisopropotype\/app\/public\/wp-content\/uploads\/wpo_wcpdf_f1556bbebd4e84e31e86d729f318fd51\/fonts\/currencies",
+        "italic": "C:\/Users\/crist\/Local Sites\/minisopropotype\/app\/public\/wp-content\/uploads\/wpo_wcpdf_f1556bbebd4e84e31e86d729f318fd51\/fonts\/currencies",
+        "bold_italic": "C:\/Users\/crist\/Local Sites\/minisopropotype\/app\/public\/wp-content\/uploads\/wpo_wcpdf_f1556bbebd4e84e31e86d729f318fd51\/fonts\/currencies"
+    }
+}

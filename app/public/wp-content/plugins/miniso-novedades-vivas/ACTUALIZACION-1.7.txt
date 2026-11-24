@@ -1,0 +1,24 @@
+MINISO NOVEDADES VIVAS 1.7 · CAMPOS UNIVERSALES
+===============================================
+
+- Eliminada la ficha específica de Avengers/Oakland del código del plugin.
+- Ninguna novedad recibe premios, videos ni textos según el título del post.
+- Las noticias mantienen título, imagen, cuerpo, extracto y metadatos
+  existentes en la base de datos WordPress.
+- Premios, videos, actividades y ubicación son opcionales, por noticia.
+- Hasta 60 tarjetas de premios y 30 videos por noticia.
+- Cada noticia puede editar el encabezado del bloque de información
+  y activar el bloque de noticias relacionadas con título opcional.
+- En la página Novedades se pueden cambiar la presentación, subtítulo,
+  color de portada, título de listado, descripción, filtros y paginación.
+- La categoría del evento se elige en el editor; sin deducción por título.
+- Compatibilidad con los bloques globales MINISO, antes o después del listado.
+
+INSTALACIÓN
+Plugins > Añadir plugin > Subir plugin > Reemplazar versión anterior.
+No se instala desde Apariencia > Temas.
+
+Revisa la noticia de Portales y la preventa Marvel después de instalar.
+Sus datos guardados de forma manual no se borran, pero la ficha antigua
+con contenido automático deja de mostrarse. Si un dato importante estaba
+solo en la ficha automática, ingrésalo una sola vez en los campos genéricos.

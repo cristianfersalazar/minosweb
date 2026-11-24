@@ -1,0 +1,10 @@
+MINISO Contraste rojo 1.1.0
+
+Incluye el encabezado de Novedades en Inicio y el encabezado de la página Novedades Vivas cuando su fondo sea rojo.
+No cambia las tarjetas con fondos claros ni las publicaciones que usan fondos pastel.
+
+Instalación:
+1. WordPress > Plugins > Añadir plugin > Subir plugin.
+2. Reemplazar la versión anterior de MINISO Contraste rojo.
+3. Activar y comprobar Apariencia > Personalizar > MINISO · Texto sobre rojo > Blanco.
+4. Actualizar la página con Ctrl+F5.

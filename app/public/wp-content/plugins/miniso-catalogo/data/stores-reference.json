@@ -1,0 +1,292 @@
+[
+  {
+    "slug": "miraflores",
+    "mall": "Centro Comercial Miraflores",
+    "address": "Calzada Roosevelt, zona 11, Ciudad de Guatemala.",
+    "hours": "Domingo a jueves: 10:00–20:00\nViernes y sábado: 10:00–22:00",
+    "department": "Guatemala",
+    "source": "https://miraflores.com.gt/publico/nosotros",
+    "checked": "2026-11-18",
+    "note": ""
+  },
+  {
+    "slug": "oakland-place",
+    "mall": "Oakland Place",
+    "address": "Diagonal 6, 13-01, zona 10, Ciudad de Guatemala.",
+    "hours": "Domingo a jueves: 10:00–20:00\nViernes y sábado: 10:00–22:00",
+    "department": "Guatemala",
+    "source": "https://oaklandplace.com.gt/publico/nosotros",
+    "checked": "2026-11-18",
+    "note": ""
+  },
+  {
+    "slug": "portales",
+    "mall": "Centro Comercial Portales",
+    "address": "Km 4.5 Carretera al Atlántico 3-20, zona 17, Ciudad de Guatemala.",
+    "hours": "Domingo a jueves: 10:00–20:00\nViernes y sábado: 10:00–22:00",
+    "department": "Guatemala",
+    "source": "https://portales.com.gt/publico/nosotros",
+    "checked": "2026-11-18",
+    "note": ""
+  },
+  {
+    "slug": "naranjo-mall",
+    "mall": "Naranjo Mall",
+    "address": "23 calle 10-00, zona 4 de Mixco, Guatemala.",
+    "hours": "Domingo a jueves: 10:00–20:00\nViernes y sábado: 10:00–22:00",
+    "department": "Guatemala",
+    "source": "https://naranjomall.com.gt/publico/nosotros",
+    "checked": "2026-11-18",
+    "note": "Horario tomado de los datos estructurados públicos del sitio del centro comercial."
+  },
+  {
+    "slug": "pradera-concepcion",
+    "mall": "Pradera Concepción",
+    "address": "Km 15.5 Carretera a El Salvador, Santa Catarina Pinula, Guatemala.",
+    "hours": "Lunes a domingo: 10:00–21:00",
+    "department": "Guatemala",
+    "source": "https://praderaconcepcion.com/",
+    "checked": "2026-11-18",
+    "note": ""
+  },
+  {
+    "slug": "pradera-zona-10",
+    "mall": "Centro Comercial La Pradera",
+    "address": "20 calle 25-85, zona 10, Ciudad de Guatemala.",
+    "hours": "Lunes a sábado: 10:00–20:00\nDomingo: 10:00–19:00",
+    "department": "Guatemala",
+    "source": "https://lapradera.com.gt/",
+    "checked": "2026-11-18",
+    "note": "Dirección corroborada en https://gt.saulemendez.com/moda/ubicaciones/"
+  },
+  {
+    "slug": "pradera-vistares",
+    "mall": "Pradera en Vistares",
+    "address": "Diagonal 19, 36-01 Avenida Petapa, zona 12, Ciudad de Guatemala.",
+    "hours": "Domingo a jueves: 10:00–20:00\nViernes y sábado: 10:00–21:00",
+    "department": "Guatemala",
+    "source": "https://centroscomercialespradera.com/vistares/contacto/",
+    "checked": "2026-11-18",
+    "note": ""
+  },
+  {
+    "slug": "santa-clara",
+    "mall": "Centro Comercial Santa Clara",
+    "address": "Km 17.5 Carretera al Pacífico, zona 3, Villa Nueva, Guatemala.",
+    "hours": "Lunes a domingo: 10:00–20:00",
+    "department": "Guatemala",
+    "source": "https://ciudadsantaclara.com.gt/quienes-somos/",
+    "checked": "2026-11-18",
+    "note": ""
+  },
+  {
+    "slug": "sankris-mall",
+    "mall": "Sankris Mall",
+    "address": "3.ª calle 6-72, sector A3, bulevar San Cristóbal, zona 8, Mixco.",
+    "hours": "Domingo a jueves: 10:00–20:00\nViernes y sábado: 10:00–21:00",
+    "department": "Guatemala",
+    "source": "https://www.waze.com/es/live-map/directions/gt/guatemala/mixco/centro-comercial-sankris-mall?to=place.ChIJDbIN53cLiYURvtFXthhmNIc",
+    "checked": "2026-11-18",
+    "note": "Referencia de la ficha pública del centro comercial en Waze; confirmar con administración."
+  },
+  {
+    "slug": "la-estacion",
+    "mall": "Centro Comercial La Estación",
+    "address": "16 calle 6-72, zona 10, Ciudad de Guatemala.",
+    "hours": "",
+    "department": "Guatemala",
+    "source": "https://www.max.com.gt/tiendas-max",
+    "checked": "2026-11-18",
+    "note": "Dirección corroborada en el directorio de MAX. Horario comercial sin confirmar; no se usan horarios de un local como si fueran los del centro comercial."
+  },
+  {
+    "slug": "plaza-vidu",
+    "mall": "Plaza Vidú",
+    "address": "15 avenida 6-50, bulevar El Carmen Guillén, San Miguel Petapa.",
+    "hours": "Lunes a sábado: 09:00–20:00\nDomingo: 09:00–19:00",
+    "department": "Guatemala",
+    "source": "https://plazavidu.com.gt/ubicacion/",
+    "checked": "2026-11-18",
+    "note": ""
+  },
+  {
+    "slug": "metrocentro",
+    "mall": "Metrocentro Villa Nueva",
+    "address": "0 calle 16-20, Villa Nueva / San Miguel Petapa, Guatemala.",
+    "hours": "",
+    "department": "Guatemala",
+    "source": "https://www.cooperativaguadalupana.com.gt/ubicaciones/",
+    "checked": "2026-11-18",
+    "note": "Dirección de referencia del centro comercial; zona y horario del centro comercial pendientes de confirmar."
+  },
+  {
+    "slug": "parque-las-americas",
+    "mall": "Parque Las Américas",
+    "address": "Avenida Las Américas 6-69, Ciudad de Guatemala.",
+    "hours": "Domingo a jueves: 10:00–20:00\nViernes y sábado: 10:00–21:00",
+    "department": "Guatemala",
+    "source": "https://www.parquelasamericas.com.gt/",
+    "checked": "2026-11-18",
+    "note": ""
+  },
+  {
+    "slug": "videre",
+    "mall": "Vidēre",
+    "address": "Bulevar Vista Hermosa 19-41, Colonia Vista Hermosa I, zona 15, Ciudad de Guatemala.",
+    "hours": "Lunes a jueves: 10:00–20:00\nViernes y sábado: 10:00–21:00\nDomingo: 10:00–18:00",
+    "department": "Guatemala",
+    "source": "https://viderecc.com/contacto/",
+    "checked": "2026-11-18",
+    "note": ""
+  },
+  {
+    "slug": "spazio",
+    "mall": "Spazio",
+    "address": "15 avenida y bulevar Rafael Landívar, zona 15, Ciudad de Guatemala.",
+    "hours": "Lunes a domingo: 10:00–19:00",
+    "department": "Guatemala",
+    "source": "https://spazio.com.gt/bloques/",
+    "checked": "2026-11-18",
+    "note": ""
+  },
+  {
+    "slug": "pacific-center",
+    "mall": "Pacific Center",
+    "address": "Calzada Aguilar Batres 32-10, zona 11, Ciudad de Guatemala.",
+    "hours": "",
+    "department": "Guatemala",
+    "source": "https://eegsa.com/agencias-eegsa/",
+    "checked": "2026-11-18",
+    "note": "Dirección de referencia; horario comercial pendiente. No se usa el horario de EEGSA como horario del centro comercial."
+  },
+  {
+    "slug": "aeropuerto-la-aurora",
+    "mall": "Aeropuerto Internacional La Aurora",
+    "address": "",
+    "hours": "",
+    "department": "Guatemala",
+    "source": "",
+    "checked": "2026-11-18",
+    "note": "Confirmar terminal, ubicación y horario propios de la tienda. El horario del aeropuerto no equivale al de MINISO."
+  },
+  {
+    "slug": "pradera-xela",
+    "mall": "Pradera Xela",
+    "address": "Avenida Las Américas 7-12, Quetzaltenango.",
+    "hours": "Domingo a jueves: 10:00–20:00\nViernes y sábado: 10:00–21:00",
+    "department": "Quetzaltenango",
+    "source": "https://centroscomercialespradera.com/xela/contacto/",
+    "checked": "2026-11-18",
+    "note": ""
+  },
+  {
+    "slug": "chimaltenango",
+    "mall": "Pradera Chimaltenango",
+    "address": "Diagonal 1, 1-75 zona 6, Chimaltenango.",
+    "hours": "Lunes a jueves: 10:00–20:00\nViernes a domingo: 10:00–21:00",
+    "department": "Chimaltenango",
+    "source": "https://centroscomercialespradera.com/chimaltenango/contacto/",
+    "checked": "2026-11-18",
+    "note": ""
+  },
+  {
+    "slug": "telares",
+    "mall": "Plaza Telares",
+    "address": "Finca Las Victorias, km 46, carretera a Ciudad Vieja, Antigua Guatemala.",
+    "hours": "",
+    "department": "Sacatepéquez",
+    "source": "https://www.plazatelares.com/",
+    "checked": "2026-11-18",
+    "note": "Dirección corroborada en https://arcadenoe.com.gt/pages/nuestras-tiendas . Horario del centro comercial sin confirmar."
+  },
+  {
+    "slug": "zona-ox",
+    "mall": "Zona OX",
+    "address": "Km 49.5 Ruta Interamericana, incorporación del libramiento, El Tejar, Chimaltenango.",
+    "hours": "",
+    "department": "Chimaltenango",
+    "source": "https://zonaox.com/",
+    "checked": "2026-11-18",
+    "note": "El sitio del centro comercial no muestra un horario general verificable."
+  },
+  {
+    "slug": "4-caminos",
+    "mall": "Metroplaza 4 Caminos",
+    "address": "Km 187 Ruta Nacional, barrio La Ciénaga, zona 7, San Cristóbal Totonicapán.",
+    "hours": "Domingo a jueves: 10:00–20:00\nViernes y sábado: 10:00–21:00",
+    "department": "Totonicapán",
+    "source": "https://metroplaza4caminos.com.gt/nosotros/",
+    "checked": "2026-11-18",
+    "note": ""
+  },
+  {
+    "slug": "quiche",
+    "mall": "",
+    "address": "",
+    "hours": "",
+    "department": "Quiché",
+    "source": "",
+    "checked": "2026-11-18",
+    "note": "Nombre ambiguo en el borrador: confirmar si es otra tienda o corresponde a Los Celajes. Se conserva el registro sin inventar otra ubicación."
+  },
+  {
+    "slug": "las-alturas",
+    "mall": "Alturas Mall",
+    "address": "17a 5-04, zona 4, El Terrero, Huehuetenango.",
+    "hours": "09:00–22:00 (días de apertura por confirmar)",
+    "department": "Huehuetenango",
+    "source": "https://alturasmall.com.gt/contact/",
+    "checked": "2026-11-18",
+    "note": "El sitio oficial publica el rango horario, pero no especifica días. Confirmar también dirección exacta del acceso."
+  },
+  {
+    "slug": "los-celajes",
+    "mall": "Los Celajes de Quiché",
+    "address": "Km 165.5, aldea Chicorral, Santa Cruz del Quiché, Quiché.",
+    "hours": "Domingo a jueves: 10:00–20:00\nViernes y sábado: 10:00–21:00",
+    "department": "Quiché",
+    "source": "https://loscelajes.gt/",
+    "checked": "2026-11-18",
+    "note": ""
+  },
+  {
+    "slug": "mazatenango",
+    "mall": "Plaza Américas",
+    "address": "Km 158 Carretera a Mazatenango, Suchitepéquez, Guatemala.",
+    "hours": "Domingo a jueves: 10:00–20:00\nViernes y sábado: 10:00–21:00",
+    "department": "Suchitepéquez",
+    "source": "https://plazaamericas.com.gt/tiendas/?categorias=ropa-mujer%2Cropa-hombre%2Cropa-ninos%2Ccalzado%2Caccesorios%2Clenceria",
+    "checked": "2026-11-18",
+    "note": "El directorio del centro comercial incluye MINISO."
+  },
+  {
+    "slug": "malacatan",
+    "mall": "",
+    "address": "",
+    "hours": "",
+    "department": "San Marcos",
+    "source": "",
+    "checked": "2026-11-18",
+    "note": "Confirmar el centro comercial y la dirección de esta sucursal antes de completar el horario."
+  },
+  {
+    "slug": "pradera-escuintla",
+    "mall": "Pradera Escuintla",
+    "address": "1.ª avenida 1-40, zona 3, Escuintla.",
+    "hours": "Lunes a domingo: 10:00–20:00",
+    "department": "Escuintla",
+    "source": "https://centroscomercialespradera.com/escuintla/contacto/",
+    "checked": "2026-11-18",
+    "note": ""
+  },
+  {
+    "slug": "interplaza-escuintla",
+    "mall": "Interplaza Escuintla",
+    "address": "Km 60 Autopista Palín–Escuintla, Escuintla.",
+    "hours": "Domingo a jueves: 10:00–20:00\nViernes y sábado: 10:00–21:00",
+    "department": "Escuintla",
+    "source": "https://interplazaescuintla.com.gt/contacto/",
+    "checked": "2026-11-18",
+    "note": ""
+  }
+]

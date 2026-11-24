@@ -1,0 +1,66 @@
+MINISO GUATEMALA | CATÁLOGO 2.5
+================================
+
+OBJETIVO
+Una sola ficha WooCommerce por producto, visible en la licencia original y
+las campañas o temporadas que el administrador le asigne. Sin HTML ni CSS.
+
+INSTALACIÓN SEGURA
+1. Respaldar primero base de datos y carpeta wp-content/uploads.
+2. Apariencia > Temas > Añadir nuevo > Subir tema.
+3. Seleccionar el ZIP, reemplazar MINISO Catálogo 2.4 y mantener activo.
+4. Actualizar con Ctrl+F5 y comprobar Inicio, Novedades, Lover+, Ayuda.
+5. Entra al administrador una vez con un usuario con permisos de WooCommerce:
+   se copiarán las promociones antiguas, sin borrar las colecciones originales.
+
+CAMBIOS DE CATALOGO
+- Menú visible «Catálogo» (antes Licencias).
+- La página Licencias configurada se conserva: mismo ID y contenido. Si tenía
+  título «Licencias» y ruta /licencias/, se renombra a «Catálogo» y /catalogo/.
+  La URL anterior redirige al nuevo destino.
+- «Catálogo» muestra Licencias, Promociones y Temporadas, con filtros.
+- Productos > Licencias y portadas sigue administrando las licencias existentes.
+- Productos > Campañas MINISO administra promociones.
+- Productos > Temporadas MINISO administra temporadas.
+- Al editar una antigua colección se verá «Tipo dentro de Catálogo».
+- No se crean productos duplicados ni se eliminan etiquetas existentes.
+
+PRODUCTOS
+Para un peluche Stormtrooper con licencia Star Wars y oferta Black MINISO:
+1. Productos > Todos los productos > editar Stormtrooper.
+2. Conservar la licencia Star Wars (pa_licencia).
+3. En «Campañas MINISO» marcar «Black Miniso».
+4. Datos del producto > General: Precio normal / Precio rebajado > Programar.
+5. Actualizar. Aparecerá en Star Wars y, durante la oferta, en Black MINISO.
+6. Una vez termine el precio rebajado programado, desaparece del listado
+   promocional (pero permanece en Star Wars y conserva su ficha original).
+
+Si anteriormente pusiste etiqueta «Black MINISO 2026», se intentará copiar
+esa participación una sola vez a la campaña «Black Miniso» si existe.
+Las etiquetas viejas no se eliminan.
+
+NUEVAS CAMPAÑAS
+- Productos > Campañas MINISO > Añadir nueva.
+- Completar nombre, descripción, imagen, color y fechas opcionales.
+- Entrar a los productos y marcar la campaña.
+- Para promociones, se muestran únicamente productos con OFERTA VIGENTE.
+- Para temporadas, los productos asociados se muestran sin exigir rebaja.
+
+INICIO
+En Páginas > Inicio > MINISO · Módulo conectado > Colecciones publicadas
+se puede seleccionar Licencias, Promociones o Temporadas y la vista de
+carrusel o cuadrícula. Los campos actuales no se borran.
+
+ALCANCE
+Esta versión cambia las plantillas y controles del tema, NO la base de datos
+original salvo metadatos nuevos, migración de asignaciones sin quitar las
+anteriores, y el renombre conservador de la página antigua si corresponde.
+No reemplaza Novedades Vivas, Inicio Unificado ni otros complementos.
+
+VERIFICACIÓN
+Probado sintácticamente. Es necesario comprobar funcionalidad y diseño en
+el WordPress local antes de utilizar en producción.
+
+FUENTE TIPOGRÁFICA
+Esta entrega carga Poppins desde Google Fonts cuando hay conexión a internet.
+Si no está disponible, usa las fuentes alternativas del sistema.

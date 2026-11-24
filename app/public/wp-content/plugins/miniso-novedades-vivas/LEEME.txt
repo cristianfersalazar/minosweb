@@ -1,0 +1,4 @@
+MINISO Novedades Vivas 1.7.
+Todas las noticias comparten los mismos campos opcionales.
+Los eventos especiales no tienen contenido preescrito.
+Consultar ACTUALIZACION-1.7.txt.

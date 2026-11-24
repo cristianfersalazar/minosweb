@@ -1,0 +1,142 @@
+/* MINISO 1.0 - Design unification only. No HTML replacements or fixed copy. */
+body.miniso-faq-help main#contenido {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+body.miniso-faq-help article.page-content {
+  position: relative;
+  isolation: isolate;
+  padding-top: clamp(30px, 4vw, 55px);
+  padding-bottom: clamp(32px, 5vw, 70px);
+}
+body.miniso-faq-help article.page-content::before {
+  content: "";
+  position: absolute;
+  inset-block: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  background: var(--miniso-faq-bg, #CFEFFF);
+  z-index: -1;
+  pointer-events: none;
+}
+body.miniso-faq-help article.page-content > h1 {
+  margin: 0 0 32px;
+  font-size: clamp(2.15rem, 4vw, 3.6rem);
+  line-height: 1.1;
+}
+/* Native HTML details in Ayuda and reusable Global FAQ sections. */
+body.miniso-faq-help article.page-content details,
+.miniso-global-section--preguntas details.miniso-global-section__question {
+  box-sizing: border-box;
+  width: 100%;
+  background: var(--miniso-faq-card, #fff);
+  border: 1px solid transparent;
+  border-radius: 18px;
+  margin: 0 0 16px;
+  padding: 0;
+  box-shadow: 0 2px 4px rgba(23,23,23,.025);
+  transition: transform .23s ease, box-shadow .23s ease, border-color .23s ease;
+  overflow: hidden;
+}
+body.miniso-faq-help article.page-content details > summary,
+.miniso-global-section--preguntas details.miniso-global-section__question > summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 92px;
+  padding: 22px 26px;
+  cursor: pointer;
+  font-weight: 700;
+  color: #171717;
+  line-height: 1.45;
+}
+body.miniso-faq-help article.page-content details > summary::-webkit-details-marker,
+.miniso-global-section--preguntas details.miniso-global-section__question > summary::-webkit-details-marker { display: none; }
+body.miniso-faq-help article.page-content details > summary::marker,
+.miniso-global-section--preguntas details.miniso-global-section__question > summary::marker { content: ""; }
+body.miniso-faq-help article.page-content details > summary::before,
+.miniso-global-section--preguntas details.miniso-global-section__question > summary::before {
+  content: "?";
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  border-radius: 13px;
+  display: grid;
+  place-items: center;
+  background: color-mix(in srgb, var(--miniso-faq-accent, #E60020) 7%, #fff);
+  color: var(--miniso-faq-accent, #E60020);
+  font-size: 19px;
+  line-height: 1;
+  font-weight: 800;
+}
+body.miniso-faq-help article.page-content details > summary::after,
+.miniso-global-section--preguntas details.miniso-global-section__question > summary::after {
+  content: "⌄";
+  margin-left: auto;
+  color: var(--miniso-faq-accent, #E60020);
+  font-size: 22px;
+  line-height: 1;
+  transition: transform .23s ease;
+}
+body.miniso-faq-help article.page-content details[open] > summary::after,
+.miniso-global-section--preguntas details.miniso-global-section__question[open] > summary::after {
+  transform: rotate(180deg);
+}
+body.miniso-faq-help article.page-content details[open],
+.miniso-global-section--preguntas details.miniso-global-section__question[open] {
+  border-color: color-mix(in srgb, var(--miniso-faq-accent, #E60020) 25%, #fff);
+}
+body.miniso-faq-help article.page-content details > :not(summary),
+.miniso-global-section--preguntas details.miniso-global-section__question > :not(summary) {
+  margin: 0 26px 16px 82px;
+  padding: 0;
+}
+body.miniso-faq-help article.page-content details > :not(summary):last-child,
+.miniso-global-section--preguntas details.miniso-global-section__question > :not(summary):last-child {
+  margin-bottom: 26px;
+}
+body.miniso-faq-help article.page-content details > :not(summary) p,
+.miniso-global-section--preguntas details.miniso-global-section__question > :not(summary) p { margin-top: 0; }
+body.miniso-faq-help article.page-content details summary:focus-visible,
+.miniso-global-section--preguntas details.miniso-global-section__question summary:focus-visible {
+  outline: 3px solid var(--miniso-faq-accent, #E60020);
+  outline-offset: -3px;
+  border-radius: 18px;
+}
+@media (hover: hover) {
+  body.miniso-faq-help article.page-content details:hover,
+  .miniso-global-section--preguntas details.miniso-global-section__question:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 9px 24px rgba(23,23,23,.08);
+  }
+}
+@media (max-width: 700px) {
+  body.miniso-faq-help article.page-content details > summary,
+  .miniso-global-section--preguntas details.miniso-global-section__question > summary {
+    padding: 15px 16px;
+    gap: 11px;
+    min-height: 70px;
+  }
+  body.miniso-faq-help article.page-content details > summary::before,
+  .miniso-global-section--preguntas details.miniso-global-section__question > summary::before {
+    width: 34px;
+    height: 34px;
+    flex-basis: 34px;
+    border-radius: 10px;
+  }
+  body.miniso-faq-help article.page-content details > :not(summary),
+  .miniso-global-section--preguntas details.miniso-global-section__question > :not(summary) {
+    margin-left: 61px;
+    margin-right: 16px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  body.miniso-faq-help article.page-content details,
+  body.miniso-faq-help article.page-content details > summary::after,
+  .miniso-global-section--preguntas details.miniso-global-section__question,
+  .miniso-global-section--preguntas details.miniso-global-section__question > summary::after {
+    transition: none;
+  }
+}

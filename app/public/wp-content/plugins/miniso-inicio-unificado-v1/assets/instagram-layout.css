@@ -1,0 +1,81 @@
+/* MINISO Inicio editable | Video a la derecha como el inicio clásico */
+@media (min-width: 861px) {
+  .miniso-flexible-home .miniso-module-section--video .miniso-module-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(300px, 410px);
+    align-items: center;
+    column-gap: clamp(28px, 6vw, 90px);
+    max-width: 1150px;
+  }
+  .miniso-flexible-home .miniso-module-section--video .miniso-module-heading {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+    margin: 0;
+    min-width: 0;
+  }
+  .miniso-flexible-home .miniso-module-section--video .miniso-module-heading > div {
+    width: 100%;
+    min-width: 0;
+  }
+  .miniso-flexible-home .miniso-module-section--video .miniso-module-cta {
+    align-self: flex-start;
+    margin: 0;
+  }
+  .miniso-flexible-home .miniso-module-section--video .miniso-module-video {
+    grid-column: 2;
+    grid-row: 1;
+    width: 100%;
+    min-width: 0;
+    max-width: 410px;
+    justify-self: end;
+  }
+  /* Si el módulo contiene solo un video, se centra en todo el ancho. */
+  .miniso-flexible-home .miniso-module-section--video .miniso-module-inner > .miniso-module-video:first-child {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+  .miniso-flexible-home .miniso-module-section--video .miniso-module-video iframe,
+  .miniso-flexible-home .miniso-module-section--video .miniso-module-video video {
+    width: 100%;
+    max-width: 100%;
+    height: min(715px, 82vh);
+    max-height: 715px;
+    aspect-ratio: auto;
+    margin: 0;
+    border-radius: 18px;
+  }
+}
+@media (max-width: 860px) {
+  .miniso-flexible-home .miniso-module-section--video .miniso-module-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: stretch;
+  }
+  .miniso-flexible-home .miniso-module-section--video .miniso-module-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    margin: 0;
+  }
+  .miniso-flexible-home .miniso-module-section--video .miniso-module-cta {
+    margin: 0;
+    align-self: flex-start;
+  }
+  .miniso-flexible-home .miniso-module-section--video .miniso-module-video {
+    width: min(100%, 410px);
+    align-self: center;
+  }
+  .miniso-flexible-home .miniso-module-section--video .miniso-module-video iframe,
+  .miniso-flexible-home .miniso-module-section--video .miniso-module-video video {
+    width: 100%;
+    height: 650px;
+    max-height: none;
+  }
+}

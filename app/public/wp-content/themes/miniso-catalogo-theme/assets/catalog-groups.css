@@ -1,0 +1,23 @@
+/* MINISO Catálogo global 2.5: hereda fuentes y paleta del tema. */
+.mct-catalog-groups{margin-top:24px}
+.mct-catalog-tabs{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:0 0 22px}
+.mct-catalog-tabs a{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:10px 18px;border:1px solid #dddde5;border-radius:100px;background:#fff;color:#202020;font-weight:600;font-size:.875rem;transition:background .18s ease,color .18s ease,border-color .18s ease}
+.mct-catalog-tabs a[aria-current="page"]{background:var(--red,#E60020);border-color:var(--red,#E60020);color:#fff}
+.mct-catalog-tabs a:hover{border-color:var(--red,#E60020)}
+.mct-catalog-type{margin-block:30px 50px;scroll-margin-top:140px}
+.mct-catalog-type>h2{font-size:clamp(1.45rem,2.5vw,2.3rem);margin:0 0 22px}
+.mct-catalog-type .collection-grid{margin-top:0}
+.mct-catalog-type .collection-card .collection-caption{min-height:132px}
+.collection-intro:not(:has(.cover)){grid-template-columns:1fr}
+.mct-price{display:flex;align-items:center;flex-wrap:wrap;gap:7px 13px;margin:13px 0 14px;font-weight:600;font-size:1.06rem}
+.mct-price del{color:#6b6b72;font-weight:400;font-size:.9em;text-decoration-thickness:1px}
+.mct-price strong{color:#C50027;font-size:1.24em;font-weight:700}
+.mct-offer-percent{display:inline-flex;align-items:center;padding:4px 8px;border-radius:999px;background:#ffe4ea;color:#A50024;font-size:.75rem;white-space:nowrap}
+.product-copy>.mct-price{margin:0 0 24px;font-size:1.35rem}
+.product-card .card-body .mct-price{margin-block:12px}
+.product-card .card-body .mct-price strong{font-size:1.13em}
+.mct-price-variable .price{font-weight:700}
+@media(max-width:700px){.mct-catalog-tabs{gap:7px}.mct-catalog-tabs a{font-size:.75rem;padding:9px 12px}.mct-catalog-type{margin-block:22px 38px}.mct-price{gap:5px 8px;font-size:.94rem}.mct-offer-percent{font-size:.7rem}}
+@media(prefers-reduced-motion:reduce){.mct-catalog-tabs a{transition:none}}
+
+.mct-catalog-no-image{background:linear-gradient(145deg,color-mix(in srgb,var(--accent) 35%,white),color-mix(in srgb,var(--accent) 14%,white));aspect-ratio:1/1}

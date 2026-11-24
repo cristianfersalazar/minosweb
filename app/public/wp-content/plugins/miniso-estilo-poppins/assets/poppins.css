@@ -1,0 +1,108 @@
+/* FUNCIÓN · Poppins incluida en el complemento: no requiere Google Fonts ni Internet. */
+@font-face {
+  font-family: 'Poppins'; font-style: normal; font-weight: 400; font-display: swap;
+  src: url('fonts/poppins-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Poppins'; font-style: normal; font-weight: 600; font-display: swap;
+  src: url('fonts/poppins-semibold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Poppins'; font-style: normal; font-weight: 700; font-display: swap;
+  src: url('fonts/poppins-bold.woff') format('woff');
+}
+
+/* EDITAR 01 · Colores y fuente. Los colores también se cambian en Personalizar. */
+body.miniso-poppins {
+  --mp-primary: #e60020;
+  --mp-secondary: #007a91;
+  --mp-rose: #b52f69;
+  --red: var(--mp-primary);
+  --font: 'Poppins', Arial, sans-serif;
+  font-family: var(--font);
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+.miniso-poppins :is(button, input, select, textarea) { font-family: var(--font); }
+.miniso-poppins :is(h1, h2, h3) { font-family: var(--font); font-weight: 700; letter-spacing: -.035em; }
+.miniso-poppins :is(h1, h2) { line-height: 1.2; text-wrap: balance; }
+.miniso-poppins :is(.button, nav a, .text-link, summary) { font-weight: 600; }
+.miniso-poppins :is(.card-heading h3, .product-card h3) { letter-spacing: -.025em; }
+
+/* EDITAR 02 · Color del texto HTML. No se cambia ninguna imagen oficial. */
+.miniso-poppins :is(.section-head h1, .page-content > h1, main > h1, .collection-intro h1) { color: var(--mp-primary); }
+.miniso-poppins :is(.section-head h2, .loyalty h2) { color: var(--mp-secondary); }
+.miniso-poppins .section-head { align-items: center; gap: 14px; }
+.miniso-poppins .section-head :is(h1, h2) { position: relative; padding-bottom: 13px; min-width: 0; }
+.miniso-poppins .section-head :is(h1, h2)::after {
+  content: ''; display: block; position: absolute; left: 0; bottom: 0;
+  width: 48px; height: 4px; border-radius: 10px; background: currentColor;
+}
+.miniso-poppins .loyalty { background: #eef9fc; }
+.miniso-poppins .tag { letter-spacing: .08em; }
+.miniso-poppins .hero-bottom { background: #fff7f2; }
+.miniso-poppins .card { border-color: #e9e9ed; }
+.miniso-poppins .card-body p { font-size: 14px; }
+.miniso-poppins .card-heading h3 { font-size: 20px; }
+.miniso-poppins .card-body { padding: 22px; }
+.miniso-poppins .button { border-radius: 999px; }
+.miniso-poppins .button:focus-visible { outline-offset: 5px; }
+.miniso-poppins .button:hover { filter: none; }
+.miniso-poppins .card:focus-within { border-color: var(--mp-primary); }
+.miniso-poppins .text-link { text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 5px; }
+.miniso-poppins .text-link:focus-visible { text-decoration-color: currentColor; }
+.miniso-poppins .desktop-nav a { position: relative; padding-block: 9px; }
+.miniso-poppins .desktop-nav a::after {
+  content: ''; position: absolute; inset: auto 0 0; height: 2px; border-radius: 10px;
+  background: var(--mp-primary); transform: scaleX(0); transform-origin: left;
+}
+.miniso-poppins .desktop-nav a:is(.active, :focus-visible)::after { transform: scaleX(1); }
+.miniso-poppins .bottom-nav a { border-radius: 12px; }
+.miniso-poppins .bottom-nav a.active { background: #fff0f3; }
+.miniso-poppins details[open] { border-color: #edb4c0; background: #fffafb; }
+.miniso-poppins details[open] > summary { color: var(--mp-primary); }
+
+/* EDITAR 03 · Clases opcionales para bloques de texto: color rojo, azul o rosa. */
+.miniso-poppins .miniso-texto-rojo { color: var(--mp-primary); }
+.miniso-poppins .miniso-texto-azul { color: var(--mp-secondary); }
+.miniso-poppins .miniso-texto-rosa { color: var(--mp-rose); }
+
+/* FUNCIÓN · Transiciones breves en elementos interactivos. Nunca parpadeos ni bucles. */
+.miniso-poppins.miniso-motion :is(.button, .heart, .icon-button, .card, .store, .tier) {
+  transition: transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease, background-color 220ms ease;
+}
+.miniso-poppins.miniso-motion .desktop-nav a::after,
+.miniso-poppins.miniso-motion :is(.text-link, summary) { transition: transform 220ms ease, color 220ms ease, text-decoration-color 220ms ease; }
+@media (hover: hover) and (pointer: fine) {
+  .miniso-poppins .text-link:hover { text-decoration-color: currentColor; }
+  .miniso-poppins .desktop-nav a:hover { color: var(--mp-primary); }
+  .miniso-poppins .desktop-nav a:hover::after { transform: scaleX(1); }
+  .miniso-poppins.miniso-motion .button:not(:disabled):hover { transform: translateY(-2px); box-shadow: 0 7px 18px #e6002022; }
+  .miniso-poppins.miniso-motion .card:hover { transform: translateY(-5px); box-shadow: 0 16px 35px #29232c12; border-color: #edb4c0; }
+  .miniso-poppins.miniso-motion :is(.heart, .icon-button):hover { transform: translateY(-2px); background: #fff0f3; }
+  .miniso-poppins.miniso-motion .tier:hover { transform: translateY(-4px); }
+}
+.miniso-poppins.miniso-motion .button:not(:disabled):active { transform: translateY(0); box-shadow: none; }
+.miniso-poppins:not(.miniso-motion) .card { transition: none; }
+.miniso-poppins:not(.miniso-motion) .card:hover { transform: none; }
+
+/* FUNCIÓN · Mantiene los cinco botones del menú móvil centrados. */
+@media (max-width: 700px) {
+  .miniso-poppins .section-head { align-items: flex-start; }
+  .miniso-poppins .section-head :is(h1, h2) { font-size: clamp(21px, 5.5vw, 29px); }
+  .miniso-poppins .card-body { padding: 13px; }
+  .miniso-poppins :is(.card-heading h3, .product-card h3) { font-size: 15px; }
+  .miniso-poppins .card-body p { font-size: 13px; }
+  .miniso-poppins .bottom-nav a { font-size: 10px; }
+  .miniso-poppins .loyalty { padding: 22px; }
+}
+
+/* FUNCIÓN · Respeta reducir movimiento sin ocultar texto ni controles. */
+@media (prefers-reduced-motion: reduce) {
+  .miniso-poppins.miniso-motion .desktop-nav a::after,
+  .miniso-poppins.miniso-motion :is(.button, .heart, .icon-button, .card, .store, .tier, .text-link, summary) { transition: none; }
+  .miniso-poppins.miniso-motion :is(.button, .heart, .icon-button, .card, .tier):hover { transform: none; }
+}
+@media print {
+  .miniso-poppins { --mp-primary: #202124; --mp-secondary: #202124; }
+}

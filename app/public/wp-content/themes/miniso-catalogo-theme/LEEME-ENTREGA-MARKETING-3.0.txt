@@ -1,0 +1,84 @@
+MINISO GUATEMALA · PAQUETE EDITORIAL UNIFICADO 3.0
+=================================================
+
+OBJETIVO
+Reducir la necesidad de extensiones auxiliares y simplificar la entrega a Marketing sin recrear o eliminar datos.
+El tema incluye "Centro MINISO" como pantalla editorial central, accesible desde el menú lateral de WordPress.
+
+IMPORTANTE: NO ES UNA MIGRACIÓN A UNA BASE DE DATOS NUEVA
+Los productos, precios, campañas, banners, noticias, páginas, imágenes, menús y opciones actuales se conservan en WordPress.
+El tema sigue necesitando WooCommerce y el complemento base "MINISO Catálogo" que define banners, sucursales,
+noticias y ajustes principales. Ese complemento base no forma parte de este ZIP porque su código original no se incluyó
+entre los archivos disponibles. No desactivarlo. Este paquete no sustituye WooCommerce.
+
+ANTES DE INSTALAR
+1. Crea una copia de seguridad completa: base de datos + wp-content + plugins + tema actual.
+2. Instala y prueba primero en una copia local/staging del sitio existente.
+3. Verifica que están activos WooCommerce y el complemento BASE MINISO Catálogo.
+4. Ve a Apariencia > Temas > Añadir nuevo > Subir tema; carga el ZIP de la versión 3.0 y reemplaza el tema.
+5. Visita el menú "Centro MINISO" y comprueba la sección "Comprobaciones de entrega".
+6. Prueba Inicio y las páginas Novedades, Catálogo, una ficha de producto, Sucursales, Lover+ y Ayuda.
+7. Verifica que banners y publicaciones ya creados siguen disponibles. Realiza una prueba creando un borrador.
+
+CONSOLIDACIÓN DE COMPLEMENTOS AUXILIARES
+La versión 3.0 trae integradas las funciones de estos complementos previos:
+- MINISO · Novedades Vivas 1.7 (fichas, premios, videos, actividades y presentación)
+- MINISO · Ayuda por Categorías 1.0 (filtros de preguntas)
+- MINISO · Ayuda Visual Unificada 1.0 (estilo)
+- MINISO · Contraste rojo 1.1 (colores de encabezados)
+- MINISO · Sucursales rotativas 1.0 (rotación en portada)
+- MINISO · Inicio unificado 1.0.2 (portada flexible y video Instagram)
+- MINISO · LinkedIn Institucional 1.0 (función ya incluida nativamente desde el tema 2.6)
+No desactives todos los complementos a la vez ni elimines sus archivos antes de probar.
+Después de comprobar el tema, desactiva UNO A UNO los auxiliares listados, recarga la página y valida cada función.
+Si algo falla, reactiva el complemento afectado y restaura el respaldo según sea necesario.
+Para Novedades Vivas confirma que una ficha existente siga mostrando fecha, videos y premios antes de desactivarlo definitivamente.
+
+NO DESACTIVAR:
+- WooCommerce
+- El plugin BASE del catálogo MINISO (si administra los tipos de contenido miniso_banner, miniso_sucursal, miniso_novedad).
+- Otros plugins de uso empresarial cuya función no se haya verificado.
+No incluye el complemento temporal de recuperación de preventa o ajustes de contenido puntuales.
+
+DÓNDE EDITA MARKETING
+Centro MINISO > Panel: Accesos directos a páginas y tipos de contenido.
+Centro MINISO > Portada: Textos globales y sincronización opcional con los módulos del Inicio editable.
+Centro MINISO > Catálogo: Encabezados, botones y avisos; productos en Productos.
+Centro MINISO > Novedades: Encabezados; campañas, noticias y fechas en Novedades.
+Centro MINISO > Lover+: Frases y botones; contenido detallado en la página Lover+.
+Centro MINISO > Sucursales: Frases y títulos; horarios y Maps en cada sucursal.
+Centro MINISO > Redes y video: Enlaces y textos generales.
+Centro MINISO > Textos generales: Menú, pie, etiquetas y textos comunes.
+Centro MINISO > Colores: Fondo, color principal, contraste y colores de Ayuda.
+Centro MINISO > Ayuda: Nombres de categorías; preguntas/respuestas en la página Ayuda.
+Centro MINISO > Equipo y LinkedIn: Todos los textos, la fotografía oficial y el enlace a LinkedIn.
+Centro MINISO > Publicación: Flujo editorial y roles sugeridos.
+
+QUÉ NO HACE
+- No instala WooCommerce ni migra la base de datos de otro WordPress.
+- No confirma inventario en tiempo real, no automatiza aprobaciones y no publica vacantes automáticamente.
+- No habilita compras ni reservas por internet.
+- No reemplaza una prueba de accesos/permisos con las cuentas reales de Marketing.
+
+PERMISOS
+Administrador: solo para TI/administración y mantenimiento.
+Editor: páginas, novedades y textos del Centro MINISO (usa la capacidad edit_pages).
+Gestor de tienda (WooCommerce): productos y descuentos, sujeto a permisos configurados por el administrador.
+No utilizar una cuenta compartida para el equipo. Crear usuarios individuales y activar contraseñas fuertes y 2FA si está disponible.
+
+PRUEBAS MÍNIMAS PREVIAS A ENTREGA
+[ ] Menú "Centro MINISO" visible para un usuario Editor de prueba
+[ ] Editar un título -> guardar -> verificar cambio en web -> restaurar título
+[ ] Editar color rojo -> comprobar contraste blanco y revertir
+[ ] Crear noticia borrador -> publicar con autorización -> comprobar ficha -> borrar prueba
+[ ] Editar/confirmar tienda, horario y enlace Maps
+[ ] Revisar Lover+ y exclusiones vigentes
+[ ] Validar la sección de empleo y LinkedIn
+[ ] Revisar filtros de Ayuda (móvil y escritorio)
+[ ] Confirmar que solo los carruseles tienen scroll horizontal
+[ ] Comprobar enlaces y versión móvil
+[ ] Validar importación CSV de prueba antes de carga masiva
+[ ] Revisar acceso de todas las personas del equipo y backups
+
+VERSIÓN
+MINISO Catálogo 3.0.0 · Entrega candidata para pruebas editoriales, no certificada en entorno productivo.

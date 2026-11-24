@@ -1,0 +1,63 @@
+MINISO CATÁLOGO 2.3 · EDICIÓN GLOBAL Y PORTADA FLEXIBLE
+======================================================
+
+OBJETIVO
+Personalizar el sitio desde WordPress, sin editar CSS, HTML ni PHP.
+El tema NO introduce titulares, descripciones, premios ni videos de campañas.
+Todas las opciones del nuevo constructor controlan elementos visuales reales.
+
+ANTES DE INSTALAR
+1. Haz respaldo del tema, la base de datos y wp-content/uploads.
+2. Instala desde Apariencia > Temas > Añadir tema > Subir tema.
+3. Reemplaza el tema MINISO Catálogo (NO elimines productos ni noticias).
+4. Mantén activado el plugin original MINISO Catálogo y WooCommerce.
+5. Actualiza Novedades Vivas al paquete 1.7 si lo utilizas.
+
+PARA PERSONALIZAR INICIO
+1. Apariencia > MINISO · Inicio editable.
+2. Haz copia de seguridad y utiliza «Preparar Inicio editable» para convertir
+   de forma voluntaria los módulos actuales en bloques configurables.
+3. La acción conserva al final el contenido Gutenberg ya guardado.
+   Revisa si algún bloque antiguo aparece repetido y ajusta la página.
+4. Páginas > Inicio > Editar: desde + añade los bloques:
+   - MINISO · Módulo conectado (banners, colecciones, novedades,
+     sucursales, Lover+, video, redes sociales)
+   - MINISO · Sección personalizable (texto, tarjetas, galería,
+     premios, videos, FAQ, destacados)
+5. Usa la Vista de lista para mover, duplicar o eliminar bloques.
+6. Selecciona fondos pastel y escribe únicamente el contenido real.
+7. Si una sección está vacía, no aparece en el sitio.
+8. Las imágenes de banners se siguen gestionando en Banners MINISO;
+   las noticias en Novedades MINISO; las tiendas en Sucursales MINISO.
+
+OTRAS PÁGINAS
+- Lover+, Ayuda y páginas estándar: añade bloques MINISO en su editor.
+- Licencias y Sucursales: puedes agregar secciones personalizadas
+  en sus páginas, además de sus respectivos listados conectados.
+- Novedades y portada de Novedades: usa bloques antes o después del listado.
+- Pie de página y etiquetas de los módulos clásicos:
+  Apariencia > Personalizar > MINISO · Etiquetas y pie de página.
+- El modo clásico sigue disponible si no activas el flexible.
+
+IMPORTANTE
+- Si una opción anterior del plugin MINISO Catálogo sigue sin funcionar,
+  se debe revisar el plugin origen: sus archivos NO venían en el ZIP del tema.
+- «Subir catálogo de Canadá»: el tema oculta el menú obsoleto si coincide
+  con ese nombre; para desactivar completamente una importación perteneciente
+  a otro plugin, será necesario revisar o desactivar dicho plugin.
+- Las páginas y publicaciones antiguas NO se migran automáticamente.
+- Instagram puede impedir reproducción incrustada en ciertos navegadores;
+  el enlace externo sigue disponible.
+- No se ha ejecutado una prueba visual dentro de tu sitio local.
+
+PRUEBAS DESPUÉS DE ACTUALIZAR
+[ ] Inicio clásico intacto antes de la conversión.
+[ ] Apariencia > MINISO · Inicio editable visible.
+[ ] Al preparar Inicio, se puede editar cada módulo por separado.
+[ ] Añadir, ocultar, reordenar y cambiar color de un módulo tiene efecto.
+[ ] Banner existente y carrusel siguen funcionando.
+[ ] Colecciones, noticias y sucursales muestran los registros publicados.
+[ ] Eliminar el texto de una sección elimina ese texto en el sitio.
+[ ] En teléfono no hay desbordamientos horizontales.
+[ ] Redes, pie de página, Lover+ y Ayuda funcionan.
+[ ] Si algo falla, restaura el respaldo del tema anterior.

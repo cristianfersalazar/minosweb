@@ -1,0 +1,18 @@
+MINISO Catálogo 3.0.1 · Reparación de incompatibilidad con plugins anteriores
+
+Corrección:
+- Se evita redefinir mnv_news_card al mantener activo MINISO Novedades Vivas.
+- Se evita el mismo tipo de conflicto en Ayuda por Categorías, Sucursales Rotativas e Inicio Unificado.
+- Los módulos integrados se cargan solamente cuando no se encuentra el complemento anterior.
+- Contenido y configuración permanecen en WordPress. No borra productos, noticias, usuarios ni preferencias.
+
+RECUPERACION DESDE LOCAL SI WORDPRESS NO ABRE:
+1. En Local, detén el sitio (Stop site).
+2. Abre la carpeta: ...\app\public\wp-content\themes\
+3. Renombra la carpeta miniso-catalogo-theme actual a miniso-catalogo-theme-backup-3.0.
+4. Descomprime este ZIP en themes, preservando la carpeta miniso-catalogo-theme.
+5. Inicia el sitio en Local y comprueba el administrador y el Inicio.
+6. No elimines los plugins mientras validas. Tras confirmar funcionamiento,
+   se pueden desactivar los auxiliares integrados individualmente.
+
+Para volver atras, detén el sitio y restaura la carpeta de tema anterior.

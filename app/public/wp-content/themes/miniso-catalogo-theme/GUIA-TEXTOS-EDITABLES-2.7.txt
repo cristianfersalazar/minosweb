@@ -1,0 +1,47 @@
+MINISO CATÁLOGO 2.7 · EDICIÓN CENTRALIZADA DE TEXTOS
+==================================================
+
+INSTALACIÓN
+1. Respaldar el sitio antes de reemplazar el tema.
+2. WordPress → Apariencia → Temas → Añadir tema → Subir tema.
+3. Subir este ZIP y reemplazar MINISO Catálogo (NO activar otro tema).
+4. Abrir Apariencia → Personalizar → MINISO · Textos editables.
+
+CAMBIAR «Tus mundos favoritos»
+1. En MINISO · Textos editables, entrar en «02 · Catálogo y colecciones».
+2. Cambiar «Título grande», «Descripción» y «Botón superior».
+3. Publicar.
+
+SI EL INICIO ESTÁ HECHO CON BLOQUES «MINISO · MÓDULO»
+Si en la portada aparecen tarjetas con la etiqueta COLECCIÓN, probablemente tu Inicio
+usa módulos del editor. Los módulos guardan su propio título y descripción.
+Dos maneras de editarlos:
+A) INDIVIDUAL: Páginas → Inicio → Editar, abrir cada bloque MINISO · Módulo,
+   modificar sus campos y Actualizar la página.
+B) GLOBAL: Apariencia → Personalizar → MINISO · Textos editables →
+   «00 · ¿Tu Inicio usa bloques?» → activar «Aplicar los textos de este panel
+   también a los módulos del Inicio editable». Después editar los apartados
+   02 a 07 y Publicar.
+   Esta casilla NO borra los valores guardados en cada bloque; si se desactiva,
+   se vuelven a utilizar esos valores. Promociones/Temporadas conservan su
+   texto específico, que debe editarse en su bloque.
+
+OTROS TEXTOS
+- Banners individuales: WooCommerce → Banners MINISO (título, extracto y botón).
+- Nombres e imágenes de licencias: Productos → Licencias y portadas.
+- Nombres, descripción y precios de productos: Productos → Editar producto.
+- Novedades individuales: Novedades (tipo de contenido correspondiente).
+- Sucursales y horarios: Sucursales (tipo de contenido correspondiente).
+- FAQs: Páginas → Ayuda → Editar.
+- Trabaja con nosotros: MINISO · Textos editables → 10 · Forma parte del equipo.
+- Textos generales, avisos, llamadas a la acción y pie de página: apartados 01 a 09.
+
+CONSERVACIÓN
+Este tema mantiene todos los datos de WordPress y WooCommerce; no reescribe
+productos, páginas ni módulos existentes. Los campos ya editados en el
+Personalizador se REUBICAN, no se duplican ni se borran. No se requieren plugins.
+
+VERIFICACIÓN
+Comprobar Inicio en escritorio y teléfono, y que continúe sin scroll lateral
+excepto en los carruseles internos. Comprobar las secciones de Novedades y
+Trabaja con nosotros. No se ha realizado prueba visual en un WordPress activo.

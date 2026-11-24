@@ -1,0 +1,18 @@
+MINISO · Inicio unificado 1.0.2
+
+CORRECCIÓN
+- / y /inicio/ siguen utilizando una sola portada editable.
+- En el módulo «Video» la información aparece a la izquierda y el Reel a la derecha en pantallas grandes.
+- En móviles el texto aparece arriba y el video abajo.
+- Si no se completa texto, el video se centra y no crea contenido automático.
+- No cambia los textos, imágenes ni los enlaces guardados.
+
+INSTALACIÓN
+1. Haz una copia de seguridad.
+2. Plugins > Añadir nuevo > Subir plugin.
+3. Reemplaza MINISO Inicio Unificado por la versión 1.0.2.
+4. Comprueba que sigue activo.
+5. Actualiza la portada con Ctrl+F5.
+
+La sección de video sigue administrándose desde Páginas > Inicio > Editar > MINISO · Módulo conectado > Video.
+Instagram puede impedir la reproducción integrada dependiendo de sus propias restricciones.

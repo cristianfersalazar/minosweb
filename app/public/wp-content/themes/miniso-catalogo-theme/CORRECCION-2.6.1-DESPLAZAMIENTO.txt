@@ -1,0 +1,18 @@
+MINISO Catálogo 2.6.1 | Corrección de desplazamiento lateral
+
+Esta actualización se instala reemplazando el TEMA actual (no es plugin).
+
+Correcciones:
+- Impide que el documento completo muestre una barra de scroll horizontal.
+- Ajusta el ancho de las secciones del Inicio para que 100vw no sume la barra vertical.
+- Mantiene el desplazamiento independiente de las colecciones / catálogo y los carruseles internos.
+- Conserva la sección Trabaja con nosotros, LinkedIn y las opciones del Personalizador.
+
+Instalación:
+1. Haz copia de seguridad del sitio.
+2. Apariencia > Temas > Añadir tema > Subir tema.
+3. Selecciona miniso-catalogo-2.6.1-sin-scroll-lateral.zip y acepta reemplazar el tema.
+4. Comprueba Inicio y Catálogo en computadora y teléfono. Actualiza el navegador con Ctrl+F5.
+
+Los cambios corresponden al CSS del tema. Los contenidos y ajustes existentes no se eliminan.
+Se verificó sintaxis/estructura local; la prueba completa requiere el sitio WordPress instalado.

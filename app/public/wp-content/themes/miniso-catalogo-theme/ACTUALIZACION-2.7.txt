@@ -1,0 +1,11 @@
+MINISO CATÁLOGO 2.7 · Editor de textos
+===================================
+Mejoras:
+- NUEVO panel «MINISO · Textos editables» con secciones agrupadas.
+- Los campos existentes se MUEVEN al panel y conservan sus valores.
+- Nuevas opciones para palabras de tarjetas, enlaces y mensajes del catálogo.
+- «Sincronizar con Inicio editable»: opt-in, sin sobrescribir bloques originales.
+- Se mantiene LinkedIn, Lover+, catálogo, temporadas, sucursales y scroll interno.
+- Textos largos pueden partir líneas en vez de desbordar el ancho de pantalla.
+
+Guía completa: GUIA-TEXTOS-EDITABLES-2.7.txt.

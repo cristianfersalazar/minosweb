@@ -1,0 +1,36 @@
+MINISO Catálogo 2.6.0 · Sección «Trabaja con nosotros» integrada en el tema
+
+QUÉ CAMBIÓ
+- La portada muestra una sección nativa «Forma parte del equipo MINISO», al final del contenido y antes de las redes sociales.
+- No hay que instalar ningún plugin para esta sección.
+- Botón a LinkedIn oficial de MINISO Guatemala y acceso «Trabaja con nosotros» en el pie y en el menú «Más» móvil.
+- Textos, etiquetas, colores y fotografía oficial del equipo son editables desde WordPress.
+- Las imágenes de producto, portada, banners, categorías, promociones y contenidos anteriores quedan intactos.
+
+INSTALACIÓN
+1. Realiza respaldo de sitio/tema.
+2. En Apariencia > Temas > Añadir nuevo > Subir tema, selecciona este ZIP.
+3. Cuando WordPress pregunte, REEMPLAZA el tema MINISO Catálogo que ya tienes. No actives una copia duplicada.
+4. En Apariencia > Personalizar > MINISO · Diseño general > Trabaja con nosotros · LinkedIn: edita textos, colores, enlace y fotografía.
+5. Publica. Comprueba Inicio en computadora y teléfono (Ctrl+F5 si caché).
+
+IMPORTANTE: SI INSTALASTE EL PLUGIN «MINISO · LinkedIn Institucional 1.0»
+Desactívalo desde Plugins > Plugins instalados para evitar que aparezcan dos secciones.
+La nueva sección está incorporada al TEMA, no al plugin anterior.
+
+CONFIGURACIÓN EDITABLE
+- Activar o desactivar la sección en la portada.
+- Mostrar u ocultar el enlace en el pie de página.
+- Etiqueta, título, texto descriptivo, etiquetas, texto del botón y URL.
+- Nota aclaratoria; frase y descripción del panel rojo.
+- Color del fondo, destacado y texto (permite elegir blanco si el fondo es rojo).
+- Fotografía oficial del equipo desde la biblioteca de medios (sin reemplazar su archivo).
+
+ENLACES Y VACANTES
+El botón lleva a https://www.linkedin.com/company/miniso-guatemala por defecto.
+No se muestran vacantes concretas ni se recogen CV o datos de candidatos: LinkedIn mantiene su información y postulaciones.
+Para abrir un portal de vacantes específico, cambia la URL del botón desde el Personalizador.
+Se puede insertar manualmente en otra página mediante [miniso_equipo]. Si se inserta en Inicio, la sección automática no se duplica.
+
+PRUEBA DE ENTREGA
+Se verificó integridad del ZIP, sintaxis de PHP y presencia de los archivos de la sección. La visualización debe confirmarse en tu instalación de WordPress.

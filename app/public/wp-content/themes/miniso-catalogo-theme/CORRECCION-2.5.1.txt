@@ -1,0 +1,10 @@
+MINISO Catálogo 2.5.1 | Corrección del listado de productos
+
+- Evita que las columnas Campañas MINISO y Temporadas MINISO estrechen la lista de Productos.
+- Mantiene estas taxonomías y sus selectores dentro de la edición individual de cada producto.
+- Ajusta el ancho de tabla administrativa de WooCommerce para evitar letras apiladas.
+- No modifica los productos, precios, campañas, imágenes ni páginas almacenadas.
+
+Instalar desde Apariencia > Temas > Añadir nuevo > Subir tema; reemplazar la versión 2.5.0.
+Realiza previamente una copia de seguridad.
+Si otros plugins siguen añadiendo demasiadas columnas, utiliza Opciones de pantalla para ocultar las que no necesitas.

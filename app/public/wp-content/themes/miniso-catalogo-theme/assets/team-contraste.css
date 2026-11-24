@@ -1,0 +1,37 @@
+/* Afecta únicamente a copias y botones del ENCABEZADO sobre fondos rojos. */
+.miniso-contraste-rojo {
+  --mct-module-ink: var(--miniso-red-foreground, #fff) !important;
+  --mgs-text: var(--miniso-red-foreground, #fff) !important;
+  --licenses-ink: var(--miniso-red-foreground, #fff) !important;
+  --news-ink: var(--miniso-red-foreground, #fff) !important;
+  --lover-ink: var(--miniso-red-foreground, #fff) !important;
+  --stores-ink: var(--miniso-red-foreground, #fff) !important;
+  --social-ink: var(--miniso-red-foreground, #fff) !important;
+  color: var(--miniso-red-foreground, #fff) !important;
+}
+.miniso-contraste-rojo :is(.miniso-module-heading, .section-head, .miniso-global-section__copy, .video-copy, .stores-callout > div, .loyalty > div:last-child) :is(h1,h2,h3,p,span.eyebrow,a.miniso-module-cta,a.button.outline),
+.miniso-contraste-rojo.social-section > .section-inner > :is(h1,h2,p,span.eyebrow) {
+  color: var(--miniso-red-foreground, #fff) !important;
+}
+/* Evitar aplicar texto blanco en fichas blancas sobre sección roja. */
+.miniso-contraste-rojo :is(.news-card,.collection-card,.miniso-module-store,.miniso-global-section__item,.miniso-global-section__question,.miniso-module-social-link) {
+  --miniso-red-foreground: #171717;
+}
+
+/* 1.1 · Novedades: estilos específicos del tema y de Novedades Vivas. */
+/* Solo altera el texto del encabezado de la sección sobre fondo rojo.
+   Las tarjetas (news-card), sus precios/etiquetas y los fondos pastel se mantienen. */
+.news-section.miniso-contraste-rojo .section-head :is(h1,h2,h3,p,.eyebrow),
+.news-section.miniso-contraste-rojo .section-head :is(a.button,a.button.outline),
+.miniso-module-section--novedades.miniso-contraste-rojo .miniso-module-heading :is(h1,h2,h3,p,.eyebrow,a.miniso-module-cta),
+.miniso-module-section--novedades.miniso-contraste-rojo .miniso-module-heading > div,
+.mct-news-index-hero.miniso-contraste-rojo .mct-news-wrap :is(h1,.mct-news-overline,.mnv-news-home-lead,.mct-news-intro,p),
+.mct-news-story-head.miniso-contraste-rojo .mct-news-story-wrap :is(h1,.mct-news-overline,.mct-news-story-lead,.mct-news-breadcrumb,.mct-news-story-details),
+.mct-news-story-head.miniso-contraste-rojo .mct-news-story-wrap :is(.mct-news-breadcrumb,.mct-news-story-details) a {
+  color: var(--miniso-red-foreground,#fff) !important;
+}
+/* Las tarjetas claras siguen usando texto oscuro, incluso dentro de la sección roja. */
+.news-section.miniso-contraste-rojo .news-card :is(h3,p,.news-read),
+.miniso-module-section--novedades.miniso-contraste-rojo .news-card :is(h3,p,.news-read) {
+  color: #171717;
+}

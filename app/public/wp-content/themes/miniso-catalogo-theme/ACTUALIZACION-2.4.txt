@@ -1,0 +1,18 @@
+MINISO Catálogo 2.4 · Inicio único y carrusel restaurado
+
+QUÉ SE CORRIGIÓ
+- Bloque MINISO · Módulo conectado → Colecciones: por defecto usa un carrusel horizontal con desplazamiento táctil y flechas.
+- En el mismo bloque se puede elegir «Carrusel horizontal» o «Cuadrícula».
+- El módulo Lover+ con imagen se presenta en dos columnas en escritorio y se adapta en móvil.
+- Apariencia → MINISO · Inicio editable muestra un aviso si la portada real / no está vinculada a la página Inicio que se edita.
+
+CONFIGURAR UNA SOLA PORTADA (IMPORTANTE)
+1. WordPress → Ajustes → Lectura.
+2. Seleccionar «Una página estática».
+3. En «Portada», elegir la misma página Inicio que utiliza la plantilla «MINISO · Inicio editable».
+4. Guardar cambios. Abrir la dirección raíz del sitio.
+5. No crear una segunda página Inicio. Si existiera, conservarla en borrador antes de eliminar nada.
+6. Páginas → Inicio → Editar. Seleccionar el bloque conectado de Colecciones y «Carrusel horizontal».
+
+La instalación no altera Ajustes → Lectura automáticamente y no elimina ni duplica páginas.
+Los registros de WooCommerce, los banners y las imágenes siguen en la base de datos y Medios.

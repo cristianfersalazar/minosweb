@@ -1,0 +1,51 @@
+/* MINISO · Componentes globales de contenido administrable */
+.miniso-global-section {
+  width:100vw; max-width:none; position:relative; left:50%; margin-left:-50vw;
+  margin-top:0; margin-bottom:0; padding:clamp(30px,4.5vw,72px) 0;
+  background:var(--mgs-bg,#fff);color:var(--mgs-text,#171717);
+  isolation:isolate; box-sizing:border-box;
+}
+.miniso-global-section * {box-sizing:border-box}
+.miniso-global-section__inner {max-width:var(--page-width,1200px);padding:0 24px;margin:0 auto;width:100%;min-width:0}
+.miniso-global-section h2 {font-size:clamp(1.7rem,3vw,3rem);line-height:1.15;overflow-wrap:normal;word-break:normal; margin:0 0 14px}
+.miniso-global-section h3 {font-size:clamp(1.1rem,1.6vw,1.45rem);overflow-wrap:normal;word-break:normal;margin:0 0 12px}
+.miniso-global-section__copy {max-width:900px;margin-bottom:clamp(20px,3vw,36px)}
+.miniso-global-section__copy:last-child {margin-bottom:0}
+.miniso-global-section__copy p {margin:0 0 12px;max-width:80ch}
+.miniso-global-section__copy p:last-child {margin-bottom:0}
+.miniso-global-section__body p {margin-bottom:12px}
+.miniso-global-section__items {display:grid;grid-template-columns:repeat(var(--mgs-cols,3),minmax(0,1fr));gap:18px}
+.miniso-global-section__item {min-width:0;background:rgba(255,255,255,.82);color:#202020;border-radius:18px;padding:clamp(18px,2.4vw,28px);overflow:hidden;transition:transform .25s ease,box-shadow .25s ease}
+.miniso-global-section--galeria .miniso-global-section__item {background:transparent;padding:0}
+.miniso-global-section__number {display:block;font-size:clamp(1.4rem,3vw,2.8rem);line-height:1.2;color:#e60020;margin-bottom:8px}
+.miniso-global-section__image {width:100%;margin-bottom:16px}
+.miniso-global-section__image img {display:block;width:100%;height:auto;max-height:520px;object-fit:contain;border-radius:12px}
+.miniso-global-section__video {margin-bottom:16px}
+.miniso-global-section__video iframe,.miniso-global-section__video video {display:block;width:100%;max-height:640px;min-height:280px;border:0;border-radius:12px;background:#161616}
+.miniso-global-section__external {display:inline-block;margin-top:10px;text-decoration:underline}
+.miniso-global-section__item-text p {line-height:1.65;overflow-wrap:anywhere}
+.miniso-global-section__item-text p:last-child {margin-bottom:0}
+.miniso-global-section__link {display:inline-block;margin-top:14px;font-weight:700;border-bottom:2px solid #e60020}
+.miniso-global-section--preguntas .miniso-global-section__items {display:block}
+.miniso-global-section__question {background:rgba(255,255,255,.94);color:#191919;border:1px solid rgba(0,0,0,.12);border-radius:14px;margin:0 0 12px;padding:20px 24px}
+.miniso-global-section__question summary {cursor:pointer;font-weight:700}
+.miniso-global-section__answer {padding-top:12px}
+.miniso-global-section__answer p:last-child {margin:0}
+@media(hover:hover){.miniso-global-section__item:hover{transform:translateY(-5px);box-shadow:0 14px 30px #00000016}}
+@media(max-width:800px){.miniso-global-section__items {grid-template-columns:repeat(min(2,var(--mgs-cols,3)),minmax(0,1fr))}}
+@media(max-width:600px){.miniso-global-section__inner{padding:0 18px}.miniso-global-section__items{grid-template-columns:1fr}.miniso-global-section{padding:34px 0}.miniso-global-section__item{padding:20px}}
+@media(prefers-reduced-motion:reduce){.miniso-global-section__item{transition:none}.miniso-global-section__item:hover{transform:none}}
+
+
+/* 2.6.1 | En Inicio el contenedor principal ya es de ancho completo.
+   Las otras paginas conservan el fondo extendido; el exceso de 100vw
+   es recortado a nivel de documento en catalogo.css. */
+.home main#contenido > .miniso-global-section,
+.home main#contenido .miniso-flexible-home > .miniso-global-section,
+.mct-home main#contenido > .miniso-global-section,
+.mct-home main#contenido .miniso-flexible-home > .miniso-global-section {
+  width: 100%;
+  max-width: 100%;
+  left: auto;
+  margin-left: 0;
+}

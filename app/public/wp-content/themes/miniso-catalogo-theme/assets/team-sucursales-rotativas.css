@@ -1,0 +1,4 @@
+/* Únicamente controla la visibilidad; conserva el diseño original de las tarjetas. */
+.miniso-module-stores[data-miniso-rotate="1"] > .miniso-module-store[hidden] {
+    display: none !important;
+}

@@ -1,0 +1,23 @@
+MINISO · Sucursales rotativas 1.0.0
+
+REQUISITOS
+- WordPress con el tema MINISO Catálogo 2.4 y el módulo «Sucursales registradas»
+  dentro de la página Inicio editable.
+- Compatible con MINISO Inicio Unificado 1.0.2.
+
+INSTALACIÓN
+1. Haz respaldo de WordPress.
+2. Plugins > Añadir nuevo > Subir plugin.
+3. Selecciona miniso-sucursales-rotativas-1.0.zip y actívalo.
+4. En Páginas > Inicio > Editar, selecciona el módulo conectado «Sucursales registradas».
+5. En «Máximo de elementos» indica 3 y guarda.
+6. Actualiza la portada varias veces. Verás otras sucursales publicadas.
+
+FUNCIONAMIENTO
+- Participan todas las sucursales publicadas.
+- Cambia la selección con cada recarga si hay más sucursales que tarjetas visibles.
+- Se procura no repetir las mismas tarjetas consecutivamente y equilibrar sus apariciones.
+- Conserva direcciones, horarios, enlaces y estilos de cada tarjeta.
+- NO modifica la página general de Sucursales, ni la base de datos.
+- Si solo hay 3 sucursales publicadas no puede mostrar tiendas diferentes.
+- Se puede revertir simplemente desactivando el plugin.

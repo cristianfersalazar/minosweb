@@ -1,0 +1,31 @@
+# Configuracion privada
+wp-config.php
+.env
+.env.*
+*.pem
+*.key
+*.sql
+*.sql.gz
+
+# Archivos de LocalWP
+/conf/
+/logs/
+/app/sql/
+
+# Archivos temporales de WordPress
+**/wp-content/cache/
+**/wp-content/upgrade/
+**/wp-content/debug.log
+**/wp-content/ai1wm-backups/
+**/wp-content/updraft/
+**/wp-content/backups/
+
+# Archivos comprimidos y respaldos
+*.zip
+*.wpress
+*.tar.gz
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+node_modules/
